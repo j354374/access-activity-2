@@ -1,0 +1,55 @@
+﻿body{ }
+
+h2,.hdr
+{ font-family:verdana,arial,helvetica; font-size:16px; padding:0px; }
+h4,h5,h6,.subHdr
+{ font-family:verdana,arial,helvetica; font-size:14px; font-weight:bold; padding:0px; }
+p,td,th,ol,ul,li,.txt
+{ font-family:verdana,arial,helvetica; font-size:12px; font-weight:plain; color:#000000; }
+
+a:link
+{
+	font-family:verdana,arial,helvetica;
+	font-size:12px;
+	font-weight:plain;
+	text-decoration:none;
+	color: Blue;
+}
+a:active
+{ font-family:verdana,arial,helvetica; font-size:12px; font-weight:plain; text-decoration:none; color:#000000; }
+a:visited
+{ font-family:verdana,arial,helvetica; font-size:12px; font-weight:plain; text-decoration:none; color:#960200; }
+a:hover
+{
+	font-family:verdana,arial,helvetica;
+	font-size:12px;
+	font-weight:plain;
+	text-decoration:none;
+	color: Blue;
+}
+
+.keyword
+{ font-family:verdana,arial,helvetica; font-size:12px; font-weight:plain; color:#ff0000; }
+
+h3
+{ font-family:verdana,arial,helvetica;	font-size:20px;	padding:0px; color:#BA2B00;  }
+
+h1
+{ font-family:verdana,arial,helvetica; font-size:18px; padding:0px; }
+
+.tipbackground
+{
+	width: 80%;
+	border-color: #138230;
+	border : 2px;
+	background-color: #D6E3D6;
+}
+
+hr
+{ color:#138230; width: 50%; align: center; }
+
+.tasktable
+{ width: 80%; align: center; }
+
+.cellbackground
+{ background-color: #D6E3D6;}
