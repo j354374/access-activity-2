@@ -6,7 +6,7 @@
 #lefCol { float:left; width:45%; padding:1em; background-color:#FFFFFF; }
 
 #rigCol { float:left; width:45%; padding:1em; background-color:#FFFFFF; }
-#footer { clear:both; padding:1em; background-color:#CCCCCC; }
+footer { clear:both; padding:1em; background-color:#CCCCCC; }
 .clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; } /* slightly enhanced, universal clearfix hack */
 .clearfix { display: inline-block; }
 /* start commented backslash hack \*/ * html .clearfix { height: 1%; }
