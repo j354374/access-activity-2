@@ -3,9 +3,9 @@
 #wrapper { width:960px; margin:0 auto; padding:1em; background-color:#999999; }
 #header { padding:1em; background-color:#CCCCCC; }
 #container { padding:1em; background-color:#666666; }
-#lefCol { float:left; width:45%; padding:1em; background-color:#FFFFFF; }
+.lefCol { float:left; width:45%; padding:1em; background-color:#FFFFFF; }
 
-#rigCol { float:left; width:45%; padding:1em; background-color:#FFFFFF; }
+.rigCol { float:left; width:45%; padding:1em; background-color:#FFFFFF; }
 footer { clear:both; padding:1em; background-color:#FFFFFF; }
 .clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; } /* slightly enhanced, universal clearfix hack */
 .clearfix { display: inline-block; }
