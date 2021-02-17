@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 #wrapper { width:960px; margin:0 auto; padding:1em; background-color:#999999; }
-#header { padding:1em; background-color:#CCCCCC; }
+header { padding:1em; background-color:#CCCCCC; }
 #container { padding:1em; background-color:#666666; }
 .lefCol { float:left; width:45%; padding:1em; background-color:#FFFFFF; }
 
