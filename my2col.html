@@ -103,27 +103,27 @@
 							<form id="form1" method="post" action="/action_page.php">
 								<fieldset>
 									<legend title="Registration form for membership purposes">Register</legend>
-									<label aria-label="First name" label for="First name" title="First name">First Name</label>
+									<label for="FirstName" aria-label="First name"  title="First name">First Name</label>
 									<br />
-									<input type="text" id="FirstName" label for="First name" title="First name" aria-labelledby="Enter First name" />
+									<input type="text" id="FirstName" title="First name" aria-labelledby="Enter First name" />
 									<p>
-										<label title="Surname" label for="First surname" aria-labelledby="Enter Surname">Surname</label>
+										<label for="surname" title="Surname" label  aria-labelledby="Enter Surname">Surname</label>
 										<input type="text" id="surname" title="First name" aria-label="Surname"/>
 									</p>
 									<p>
-										<label title="e-mail" label for="Enter e-mail" aria-labelledby="Enter e-mail">e-mail</label>
+										<label for="e-mail" title="e-mail"  aria-labelledby="Enter e-mail">e-mail</label>
 										<input type="text" id="email" title="e-mail" aria-labelledby="Enter e-mail"/>
 									</p>
 									<p>
-										<label title="Phone number" label for="Enter phone number" aria-label="Phone number">Phone number</label>
-										<input type="text" name="phone" title="phone" aria-labelledby="Enter phone"/>
+										<label for="phone" title="Phone number"  aria-label="Phone number">Phone number</label>
+										<input type="text" id="phone" name="phone" title="phone" aria-labelledby="Enter phone"/>
 									</p>
 									<p>
-										<label label for="Select preferred option for phone" aria-labelledby="Enter preferred phone" title="preferrred phone">preferred Phone</label>
-										<input type="radio" name="Contact preference" value="radio" aria-labelledby="select preferred Phone">
+										<label for="prefphone" aria-labelledby="Enter preferred phone" title="preferrred phone">preferred Phone</label>
+										<input type="radio" name="Contact preference" value="radio" aria-labelledby="select preferred Phone" id="prefphone">
 											<br />
-											<label aria-labelledby="select preferred e-mail" title="preferred e-mail">E-mail</label>
-											<input type="radio" name="Contact preference" value="radio" aria-label="preferred e-mail" />
+											<label for="prefemail" aria-labelledby="select preferred e-mail" title="preferred e-mail">E-mail</label>
+											<input type="radio" id="prefemail" name="Contact preference" value="radio" aria-label="preferred e-mail" />
 											<br />
 										</p>
 									</fieldset>
