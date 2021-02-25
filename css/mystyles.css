@@ -13,6 +13,9 @@ footer { clear:both; padding:1em; background-color:#FFFFFF; }
 /* start commented backslash hack \*/ * html .clearfix { height: 1%; }
 .clearfix { display: block; } /* close commented backslash hack */
 
+nav {
+  background-color: #white;
+  }
 
 /*http://www.munkyonline.co.uk/web-design-articles-tutorials/css-3-column-layout.php*/
 
